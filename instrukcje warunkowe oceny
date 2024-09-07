@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Scratch {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Podaj liczbę uzyskanych punktów");
+        int punkty = scanner.nextInt();
+
+        if (punkty >100 || punkty <0){ //zakresy kontrolne, żeby ktoś nie mógł podać poniżej 0 i powyżej 100
+            System.out.println("Podałeś błędny wynik");
+            System.exit(0); // to zostało dodane, żeby program nie mielił następnych linii tylko od razu off program
+        }
+
+
+        if
+        (punkty >= 90){
+            System.out.println("Ocena 5");
+        } else if (punkty >= 80) {
+            System.out.println("Ocena 4");
+        } else if (punkty >= 70) {
+            System.out.println("Ocena 3");
+        } else if (punkty >= 60) {
+            System.out.println("Ocena 2");
+        } else {
+            System.out.println("Ocena 1");
+        }
+
+
+    }
+}
