@@ -1,0 +1,21 @@
+import java.util.Scanner;
+//From three integers entered by user, program must point out the highest value
+class Scratch {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Podaj 3 liczby całkowite");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+    if
+    ((a > b) && (a > c)){
+        System.out.println(a);
+    } else if ((b > a) && (b > c)) {
+            System.out.println(b);
+
+        } else {
+            System.out.println(c);
+        }
+    }
+}
